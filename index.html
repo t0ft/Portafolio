@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- Menu -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Tobias</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#" class="animated-underline">Inicio</a></li>
+                    <li><a href="#sobremi" class="animated-underline">Sobre Mi</a></li>
+                    <li><a href="#skills" class="animated-underline">Skills</a></li>
+                    <li><a href="#curriculum" class="animated-underline">Curriculum</a></li>
+                    <li><a href="#portfolio" class="animated-underline">Portfolio</a></li>
+                    <li><a href="#contacto" class="animated-underline">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- Inicio -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/port.jpg" alt="foto">
+            </div>
+            <h1>TOBIAS FERNANDEZ</h1>
+            <div class="inicio-texto">
+                <p>Desarrollador <span>Web</span></p>
+            </div>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/tobiasfernandezcab/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/t0ft" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, Soy Tobias Fernandez.</span> Estudiante trabajador en busca de empleo. Preparado para
+                utilizar mis habilidades y pasión para aportar
+                mis conocimientos a la empresa. Buena comunicación, trabajo en equipo y ganas de aprender mas. Tengo
+                conocimientos con las tecnologías HTML5, CCS3, SCSS, JavaScript,
+                PHP, React JS, MySQL, PostgreSQL</p>
+
+            <div class="fila">
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            12-09-2003
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            3573 436682
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            tobiasfernandezz12@gmail.com
+                        </li>
+                        <li>
+                            <strong>Linkedin</strong>
+                            www.linkedin.com/in/tobiasfernandezcab
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            Villa Del Rosario, Cordoba, Argentina.
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>ESTUDIANTE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-headset"></i>
+                            <span>GAMING</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-futbol"></i>
+                            <span>FUTBOL</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <span>Desarrollo</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-microchip"></i>
+                            <span>PC</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button>
+                <a href="pdf/tobiasfernandezcv.pdf" download="cv.pdf">Descargar Cv</a> <i
+                    class="fa-solid fa-circle-down"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Lenguajes & Tecnologías</h3>
+                    <div class="contenedor-skill">
+                        <div class="skill">
+                            <i class="fa-brands fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-brands fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-brands fa-sass"></i>
+                            <span>SCSS</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-brands fa-square-js"></i>
+                            <span>Javascript</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-brands fa-php"></i>
+                            <span>PHP</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-brands fa-react"></i>
+                            <span>ReactJS</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-brands fa-git"></i>
+                            <span>Git</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-brands fa-github"></i>
+                            <span>Github</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-solid fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-solid fa-database"></i>
+                            <span>PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Habilidades Blandas</h3>
+                    <div class="contenedor-skill">
+                        <div class="skill">
+                            <i class="fa-solid fa-comments"></i>
+                            <span>Comunicación</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-solid fa-people-group"></i>
+                            <span>Trabajo en Equipo</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-solid fa-hand-point-up"></i>
+                            <span>Cratividad</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-solid fa-handshake-simple"></i>
+                            <span>Compromiso</span>
+                        </div>
+
+                        <div class="skill">
+                            <i class="fa-solid fa-user-gear"></i>
+                            <span>Adaptabilidad</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Técnico Superior en Programación</h4>
+                        <span class="casa">Teclab Instituto Técnico Superior</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>HTML, CSS, Javascript, Java y PostgreSQL. Test unitarios. Desarrollo mobile.
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo Web Completo</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2024</span>
+                        <p>HTML5, CSS3, JS AJAX PHP y MySQL
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experencia de Trabajo</h3>
+                    <div class="item der">
+                        <h4>Prácticas Profesionalizantes Teclab</h4>
+                        <span class="casa">Teclab Instituto Técnico Superior</span>
+                        <span class="fecha">Nov - 2023</span>
+                        <p>Desarrollo propio de un blog con HTML5 y CSS, controlado por un profesional.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="contenedor-cartas">
+                <div class="carta">
+                    <img src="/img/cafe.png" alt="">
+                    <div class="carta-contenido">
+                        <h3>Blog De Café</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa non molestiae illo voluptates
+                            magnam voluptatibus eveniet, placeat veritatis nemo architecto dolorem corrupti, obcaecati
+                            quod! Sed amet provident recusandae quam voluptatibus!</p>
+                    </div>
+                    <div class="botones">
+                        <a href="https://github.com/t0ft" class="btn">GitHub</a>
+                        <a href="https://github.com/t0ft" class="btn">Sitio Web</a>
+                    </div>
+                </div>
+
+                <div class="carta">
+                    <img src="/img/festival.png" alt="">
+                    <div class="carta-contenido">
+                        <h3>Blog De Café</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa non molestiae illo voluptates
+                            magnam voluptatibus eveniet, placeat veritatis nemo architecto dolorem corrupti, obcaecati
+                            quod! Sed amet provident recusandae quam voluptatibus!</p>
+                    </div>
+                    <div class="botones">
+                        <a href="https://github.com/t0ft" class="btn">GitHub</a>
+                        <a href="https://github.com/t0ft" class="btn">Sitio Web</a>
+                    </div>
+                </div>
+
+                <div class="carta">
+                    <img src="/img/freelancer.png" alt="">
+                    <div class="carta-contenido">
+                        <h3>Blog De Café</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsa non molestiae illo voluptates
+                            magnam voluptatibus eveniet, placeat veritatis nemo architecto dolorem corrupti, obcaecati
+                            quod! Sed amet provident recusandae quam voluptatibus!</p>
+                    </div>
+                    <div class="botones">
+                        <a href="https://github.com/t0ft" class="btn">GitHub</a>
+                        <a href="https://github.com/t0ft" class="btn">Sitio Web</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>Contacto</h2>
+            <p>tobiasfernadezz12@gmail.com</p>
+            <div class="iconos">
+                <a href="https://www.linkedin.com/in/tobiasfernandezcab/" target="_blank"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/t0ft" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+        <div class="texto">
+            <p>&copy; 2023 Tobias Fernandez. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
