@@ -490,13 +490,13 @@ html {
 .portfolio {
     background-color: #252a2e;
     color: #fff;
-    /* padding: 50px 20px; */
+    padding: 50px 20px;
 }
 
-/* .portfolio .contenido-seccion {
+.portfolio .contenido-seccion {
     max-width: 1100px;
     margin: auto;
-} */
+}
 
 .portfolio h2 {
     color: #006eff;
@@ -511,24 +511,27 @@ html {
     justify-content: center;
     flex-wrap: wrap;
     gap: 2rem;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 .carta{
-    width: 325px;
+    width: 300px;
     background-color: #313131;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     margin: 20px;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 .carta img{
     width: 100%;
-    height: auto;
     border-radius: .5rem;
 }
 .carta-contenido {
     padding: 10px;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .carta-contenido h3{
     font-size: 28px;
@@ -536,8 +539,15 @@ html {
 }
 .carta-contenido p{
     color: #f5f0f0;
-    font-size: 15px;
+    font-size: 16px;
     line-height: 1;
+}
+.carta-contenido .tecnologias{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+    color: #006eff;
 }
 .botones {
     display: flex;
@@ -559,6 +569,38 @@ html {
     cursor: pointer;
     background-color: #0e57b6;
     transform: scale(1.2);
+}
+.portfolio button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #fff;
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.portfolio button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.portfolio button .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: #006eff;
+    z-index: -1;
+    transition: 1s;
+}
+
+.portfolio button:hover .overlay {
+    width: 100%;
 }
 
 /* Contacto */
