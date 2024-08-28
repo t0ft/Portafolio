@@ -11,5 +11,5 @@ function mostrarOcultarMenu() {
 
 function seleccionar() {
     document.getElementById("nav").classList ="";
-    manuVisible = false;
+    menuVisible = false;
 }
